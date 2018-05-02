@@ -21,5 +21,10 @@ namespace TestApp
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
                 .Build();
+
+        public int TestTest()
+        {
+            return 1;
+        }
     }
 }
