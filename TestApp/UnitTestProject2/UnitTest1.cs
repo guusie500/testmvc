@@ -19,7 +19,7 @@ namespace UnitTestProject2
         {
             Program p = new Program();
 
-            Assert.AreEqual(0, p.TestTest());
+            Assert.AreEqual(1, p.TestTest());
         }
 
         [TestMethod]
@@ -27,7 +27,7 @@ namespace UnitTestProject2
         {
             Program p = new Program();
 
-            Assert.AreEqual(2, p.TestTest());
+            Assert.AreEqual(1, p.TestTest());
         }
     }
 }
