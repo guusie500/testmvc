@@ -21,5 +21,13 @@ namespace UnitTestProject2
 
             Assert.AreEqual(0, p.TestTest());
         }
+
+        [TestMethod]
+        public void TestMethod3()
+        {
+            Program p = new Program();
+
+            Assert.AreEqual(2, p.TestTest());
+        }
     }
 }
