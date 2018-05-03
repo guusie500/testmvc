@@ -1,0 +1,1 @@
+dotnet ../TestApp.dll
