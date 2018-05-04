@@ -20,6 +20,7 @@ namespace TestApp
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
+                .UseUrls("http://atlamp.win.tue.nl/8443")
                 .Build();
 
         public int TestTest()
