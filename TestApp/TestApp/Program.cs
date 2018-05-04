@@ -23,7 +23,7 @@ namespace TestApp
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
-                .UseUrls("http://atlamp.win.tue.nl:8443/")
+                .UseUrls("http://*:8443/")
                 .Build();
 
         public int TestTest()
